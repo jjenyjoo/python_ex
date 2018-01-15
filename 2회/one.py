@@ -1,0 +1,12 @@
+﻿korea=int(input("국어 성적을 입력하세요 : "))
+math=int(input("수학 성적을 입력하세요 : "))
+english=int(input("영어 성적을 입력하세요 : "))
+print("\n입력받은 성적\n")
+print("---------------------")
+print("\n국어 성적 : {0}\n수학 성적 : {1}\n영어 성적 : {2}\n" .format(korea,math,english) )
+print("입력받은 성적\n")
+print("\n---------------------\n")
+total=korea+math+english
+print("총점 :  ", total)
+avg=float(total/3)
+print("평균 : ", avg)

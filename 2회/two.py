@@ -1,0 +1,6 @@
+﻿ban=int(input("반지름을 입력하세요 : "))
+print(" 반지름 : ", ban )
+nub=(ban*ban*3.141592)
+dul=(2*ban*3.141592)
+print ("원의 넓이 : %.3f" %nub)
+print("원의 둘레: %.3f" %dul)
